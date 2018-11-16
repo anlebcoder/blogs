@@ -2,7 +2,9 @@
 
 ## FIBOS 专题
 
-[FIBOS 事务 Transactions 解码知识](./decodebin.md)
+[事务 Transactions 解码知识](./decodebin.md)
+
+[解码 JavaScript 合约代码](./decodecontractcode.md)
 
 Todo:
 

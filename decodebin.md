@@ -32,19 +32,10 @@
 开始解码:
 
 ```
-var FIBOS = require("fibos.js");
-var fibos = FIBOS({
-	chainId: "6aa7bd33b6b45192465afa3553dedb531acaaff8928cf64b70bd4c5e49b7ec6a",
-	httpEndpoint: "http://to-rpc.fibos.io:8870",
-	logger: {
-		log: null,
-		error: null
-	}
-});
-
-var ctx = fibos.contractSync('eosio.token');
-let rawdata = FIBOS.modules.Fcbuffer.fromBuffer(ctx.fc.structs.excreate, Buffer.from(hex_data, 'hex'));
-console.log("rawdata:", rawdata);
+const FIBOS = require("fibos.js");
+const fibos = FIBOS();
+let rawdata = fibos.modules.Fcbuffer.fromBuffer(fibos.fc.structs.excreate, Buffer.from(hex_data, 'hex'));
+console.log(rawdata);
 ```
 
 输出结果:
