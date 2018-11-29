@@ -6,6 +6,10 @@
 
 [解码 JavaScript 合约代码](./decodecontractcode.md)
 
+## EOS 专题
+
+[使用 FIBOS 客户端快速做一个 EOS RPC 节点](https://github.com/anlebcoder/eos-Client)
+
 Todo:
 
 - 为什么不可逆高度相差300多块？
