@@ -34,7 +34,7 @@
 ```
 const FIBOS = require("fibos.js");
 const fibos = FIBOS();
-let rawdata = fibos.modules.Fcbuffer.fromBuffer(fibos.fc.structs.excreate, Buffer.from(hex_data, 'hex'));
+let rawdata = FIBOS.modules.Fcbuffer.fromBuffer(fibos.fc.structs.excreate, Buffer.from(hex_data, 'hex'));
 console.log(rawdata);
 ```
 

@@ -4,6 +4,8 @@
 
 [事务 Transactions 解码知识](./decodebin.md)
 
+[解码 block 块数据的 packed_trx](./packed_trx.md)
+
 [解码 JavaScript 合约代码](./decodecontractcode.md)
 
 ## EOS 专题
